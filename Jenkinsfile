@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u adissiva -p ${dockerhubpwd}'
 
 }
-                   sh 'docker push javatechie/devops-integration'
+                   sh 'docker push adissiva/personal-info'
                 }
             }
         }
